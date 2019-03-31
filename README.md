@@ -2,13 +2,17 @@
 Exception's flow
 
 ```php
-(new HandleException(function(){
-		try {
-			Appe::run();
-		} catch (Exception $e) {
-      return $e;
+use Undercloud\Exception\FlowHandler;
+
+(new FlowHandler(function(){
+    try {
+        // your code
+    // PHP 5.x 
+    } catch (Exception $e) {
+        return $e;
+    // PHP 7.x
     } catch (Throwable $e) {
-      return $e;
+        return $e;
     }
 }))->flow(function($e){
   
