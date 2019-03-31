@@ -1,0 +1,21 @@
+{
+  "name": "undercloud/exceptor",
+  "description": "Exception's Flow",
+  "keywords": ["php","exception","throwable","debug","error"],
+  "homepage": "https://github.com/undercloud/exceptor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "undercloud",
+      "email": "lodashes@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Undercloud\\Exception\\": "src/Undercloud/Exception/"
+    }
+  }
+}
