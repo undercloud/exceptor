@@ -14,13 +14,8 @@
     "php": ">=5.4.0"
   },
   "autoload": {
-    "files": [
-      "src/Undercloud/FlowHandler.php"
-    ]
-  },
-  "autoload-dev": {
-    "files": [
-      "src/Undercloud/FlowHandler.php"
-    ]
+    "psr-4": {
+      "Undercloud\\Exception\\": "src/Undercloud/Exception/"
+    }
   }
 }
