@@ -17,5 +17,10 @@
     "psr-4": {
       "Undercloud\\Exception\\": "src/Undercloud/Exception/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Undercloud\\Exception\\": "src/Undercloud/Exception/"
+    }
   }
 }
