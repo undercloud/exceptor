@@ -17,4 +17,4 @@ if ($handle = opendir(__DIR__ . '/../')) {
     closedir($handle);
 }
 
-require_once __DIR__ . '/../src/Undercloud/Exception/FlowHandler.php';
+require_once __DIR__ . '/home/travis/build/undercloud/exceptor/src/Undercloud/Exception/FlowHandler.php';
