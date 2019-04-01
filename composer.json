@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Undercloud\\": "src/Undercloud/"
+      "Undercloud\\Exception": "src/Undercloud/Exception"
     }
   }
 }
