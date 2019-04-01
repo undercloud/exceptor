@@ -15,12 +15,12 @@
   },
   "autoload": {
     "files": [
-      "src/Undercloud/Exception/FlowHandler.php"
+      "src/Undercloud/FlowHandler.php"
     ]
   },
   "autoload-dev": {
     "files": [
-      "src/Undercloud/Exception/FlowHandler.php"
+      "src/Undercloud/FlowHandler.php"
     ]
   }
 }

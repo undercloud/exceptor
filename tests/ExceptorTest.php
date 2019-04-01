@@ -1,5 +1,5 @@
 <?php
-use Undercloud\Exception\FlowHandler;
+use Undercloud\FlowHandler;
 
 class ExceptorTest extends PHPUnit_Framework_TestCase
 {
