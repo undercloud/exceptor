@@ -7,3 +7,4 @@ if (!class_exists('\PHPUnit\Framework\TestCase', true)) {
 }
 
 error_reporting(-1);
+require_once __DIR__ . '/../src/Undercloud/Exception/FlowHandler.php';
