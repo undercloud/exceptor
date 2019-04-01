@@ -48,6 +48,7 @@ class ExceptorTest extends PHPUnit_Framework_TestCase
         });
     }
 
+    /*
     public function testOutOfMemory()
     {
         (new FlowHandler(function(){
@@ -85,4 +86,5 @@ class ExceptorTest extends PHPUnit_Framework_TestCase
             $this->assertTrue($e instanceof ExecutionTimeoutException);
         });
     }
+    */
 }

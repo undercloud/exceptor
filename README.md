@@ -22,7 +22,7 @@ Provides a mechanism for catching errors and exceptions in the application flow.
 // catch all
 error_reporting(E_ALL);
 
-use Undercloud\FlowHandler;
+use Undercloud\Exception\FlowHandler;
 
 (new FlowHandler(function(){
     try {
