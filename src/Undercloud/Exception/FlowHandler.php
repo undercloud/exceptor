@@ -1,5 +1,5 @@
 <?php
-namespace Undercloud;
+namespace Undercloud\Exception;
 
 use Closure;
 use Throwable;
