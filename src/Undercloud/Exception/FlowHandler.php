@@ -57,8 +57,10 @@ class FlowHandler
 
             $lastError = error_get_last();
             if ($lastError) {
-                ob_clean();
-                
+                if (ob_get_length()) {
+                    ob_clean();
+                }
+ 
                 try {
                     $lastError = (object) $lastError;
 
