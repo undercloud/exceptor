@@ -14,6 +14,7 @@ class ExceptorTest extends PHPUnit_Framework_TestCase
                 return $e;
             }
         }))->flow(function($e){
+            var_dump($e);
             $this->assertTrue($e instanceof NoticeException);
         });
     }
@@ -29,6 +30,7 @@ class ExceptorTest extends PHPUnit_Framework_TestCase
                 return $e;
             }
         }))->flow(function($e){
+            var_dump($e);
             $this->assertTrue($e instanceof WarningException);
         });
     }
